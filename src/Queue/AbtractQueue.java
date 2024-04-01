@@ -5,5 +5,9 @@ public interface AbtractQueue<E> {
     // E poll( ); // ~ pop
     // E peek( ); // ~ peek
     int size( );
+    E poll( ); // ~ pop
+    E peek( ); // ~ peek
     // boolean isEmpty( );
+    boolean isEmpty( );
+
 }
