@@ -1,8 +1,8 @@
-package day3_SingleLinkedList;
+package AbtractLinkedlist;
 
-public interface AbtractLinkedList<E> {
-    void addFirst(E element);// stack/push
-    void addLast(E element); //queue/offer
+public interface Abtractlinkedlist<E> {
+void addFirst(E element);
+void addLast(E element);
     E removeFirst(); //stack/pop
     E removeLast();
     E getFirst(); //peek

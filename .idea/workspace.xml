@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5908c74-404c-42d7-a6e8-96577ee90908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/AbtractLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/Abtractlinkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/AbtractQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/AbtractQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3_SingleLinkedList/AbtractLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/AbtractLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbtractLinkedlist.runner.executor": "Debug",
+    "Application.DoubleLinkedListRunner.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.Runnerjava.executor": "Run",
+    "Application.Runnerlinkedlist (1).executor": "Debug",
     "Application.Runnerlinkedlist.executor": "Debug",
     "Application.runner.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,7 +60,53 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Runnerlinkedlist">
+  <component name="RunManager" selected="Application.Runnerjava">
+    <configuration name="AbtractLinkedlist.runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbtractLinkedlist.runner" />
+      <module name="queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbtractLinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleLinkedListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbtractLinkedlist.DoubleLinkedListRunner" />
+      <module name="queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AbtractLinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runnerjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runnerjava" />
+      <module name="queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runnerlinkedlist (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3_SingleLinkedList.Runnerlinkedlist" />
+      <module name="queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3_SingleLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runnerlinkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day3_SingleLinkedList.Runnerlinkedlist" />
       <module name="queue" />
@@ -69,23 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.runner" />
-      <module name="queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runnerjava" />
+        <item itemvalue="Application.DoubleLinkedListRunner" />
+        <item itemvalue="Application.AbtractLinkedlist.runner" />
         <item itemvalue="Application.Runnerlinkedlist" />
-        <item itemvalue="Application.runner" />
+        <item itemvalue="Application.Runnerlinkedlist (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1711952757389</updated>
       <workItem from="1711952758450" duration="64000" />
-      <workItem from="1711952870318" duration="5649000" />
+      <workItem from="1711952870318" duration="12882000" />
+      <workItem from="1712051467686" duration="1272000" />
     </task>
     <servers />
   </component>
@@ -122,8 +164,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="2" />
+          <line>171</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Node.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

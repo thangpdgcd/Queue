@@ -12,14 +12,14 @@ public class SingleLinkedList<E> implements AbtractLinkedList<E> {
     }
     @Override
     public void addFirst(E element) { //giong push stack //them vao dau
-        Node<E> newNode=new Node<>(element);
-        if (head==null && tail==null)
+        Node<E> newNode=new Node(element);
+        if (head==null && tail==null) //hoac thay cum nay tu ham isempty
         { //if list Empty
             head=newNode;
             tail=newNode;
         }else
         {//if list not Empty
-           newNode.next=head;
+           head.next=newNode;
            head=newNode;
         }
         size ++;
@@ -27,14 +27,14 @@ public class SingleLinkedList<E> implements AbtractLinkedList<E> {
 
     @Override
     public void addLast(E element) {//add vao cuoi duoi //giong offer cua queu
-        Node<E> newNode =new Node<>(element);
-        if(head == null && tail==null)
+        Node<E> newNode =new Node<>(element); //tao newnode
+        if(head == null && tail==null) //check rong
         {
             head=newNode;
             tail=newNode;
         }else
         {
-            newNode.next=tail;
+            tail.next=newNode;
             tail=newNode;
         }
         size++;
@@ -42,22 +42,59 @@ public class SingleLinkedList<E> implements AbtractLinkedList<E> {
 
     @Override
     public E removeFirst() {
-        return null;
+        E tempfirst =head.element; //tro elemen vao
+      if(head==tail)
+      {
+          head=null;
+          tail=null;
+      }
+      else
+      {
+          Node<E> nextNode =head.next; ///khai bao nextnode
+          head.next=null;
+          head=nextNode;
+      }
+        size--;
+        return tempfirst;
     }
 
     @Override
     public E removeLast() {
-        return null;
+        E templast = tail.element; //tro elemen vao
+
+
+        if(head==tail)
+        {
+            head=null;
+            tail=null;
+        }else
+        {
+            Node<E> nextNode =head; ///khai bao nextnode ///node5
+            while (nextNode.next != tail)
+            {
+                nextNode=nextNode.next;//n5
+//            nextNode=nextNode.next;//n2
+//            nextNode=nextNode.next;//n3
+//            nextNode=nextNode.next;//n4s
+            }
+            tail=nextNode;
+            tail.next=null;
+        }
+
+
+        size--;
+        return templast;
     }
 
     @Override
     public E getFirst() {
-        return null;
+
+        return head.element;
     }
 
     @Override
     public E getLast() {
-        return null;
+        return tail.element;
     }
 
     @Override
@@ -67,7 +104,32 @@ public class SingleLinkedList<E> implements AbtractLinkedList<E> {
 
     @Override
     public boolean isEmpty() {
-        return isEmpty();
+        if(head== null && tail==null)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    @Override
+    public String toString( ) {
+        StringBuilder result = new StringBuilder( "[" );
+        Node<E> current = head;
+        while ( current != null ) {
+            result.append( current.element );
+            if ( current.next != null ) {
+                result.append( ", " );
+            }
+            current = current.next;
+        }
+        result.append( "]" );
+        return result.toString( );
+    }
+    @Override
+    public E remove(E element) {
+        return null;
     }
 
     private class  Node<E>
@@ -107,10 +169,16 @@ class Runnerlinkedlist
         mysinglelinkedlist.addLast(70);
         mysinglelinkedlist.addLast(80);
 
+        mysinglelinkedlist.removeFirst();
 
+        System.out.println(mysinglelinkedlist);
 //sout=[70,60,50,40,30,20,10]
 
-        System.out.println();
+//        System.out.println("code"+mysinglelinkedlist.getFirst());
+//        System.out.println("code"+mysinglelinkedlist.getLast());
+        System.out.println("addlast" + mysinglelinkedlist);
+        System.out.println(mysinglelinkedlist.removeFirst());
+        System.out.println(mysinglelinkedlist.removeLast());
 
     }
 }
