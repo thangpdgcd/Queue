@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5908c74-404c-42d7-a6e8-96577ee90908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/Abtractlinkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Arraysum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/PrintNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/printstar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day3_SingleLinkedList/AbtractLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/AbtractLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +39,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbtractLinkedlist.runner.executor": "Debug",
-    "Application.DoubleLinkedListRunner.executor": "Debug",
+    "Application.Arraysum.executor": "Debug",
+    "Application.DoubleLinkedListRunner.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PrintNumber.executor": "Run",
     "Application.Runnerjava.executor": "Run",
     "Application.Runnerlinkedlist (1).executor": "Debug",
     "Application.Runnerlinkedlist.executor": "Debug",
+    "Application.printstar.executor": "Run",
     "Application.runner.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,13 +63,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Runnerjava">
-    <configuration name="AbtractLinkedlist.runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbtractLinkedlist.runner" />
+  <component name="RunManager" selected="Application.printstar">
+    <configuration name="Arraysum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Arraysum" />
       <module name="queue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbtractLinkedlist.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runnerjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runnerjava" />
-      <module name="queue" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runnerlinkedlist (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day3_SingleLinkedList.Runnerlinkedlist" />
+    <configuration name="PrintNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.PrintNumber" />
       <module name="queue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3_SingleLinkedList.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runnerlinkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day3_SingleLinkedList.Runnerlinkedlist" />
+    <configuration name="Runnerjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runnerjava" />
+      <module name="queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printstar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.printstar" />
       <module name="queue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3_SingleLinkedList.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runnerjava" />
+        <item itemvalue="Application.printstar" />
+        <item itemvalue="Application.PrintNumber" />
+        <item itemvalue="Application.Arraysum" />
         <item itemvalue="Application.DoubleLinkedListRunner" />
-        <item itemvalue="Application.AbtractLinkedlist.runner" />
-        <item itemvalue="Application.Runnerlinkedlist" />
-        <item itemvalue="Application.Runnerlinkedlist (1)" />
+        <item itemvalue="Application.Runnerjava" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +150,11 @@
       <updated>1711952757389</updated>
       <workItem from="1711952758450" duration="64000" />
       <workItem from="1711952870318" duration="12882000" />
-      <workItem from="1712051467686" duration="1272000" />
+      <workItem from="1712051467686" duration="1644000" />
+      <workItem from="1712053856261" duration="714000" />
+      <workItem from="1712364060295" duration="53000" />
+      <workItem from="1712364189868" duration="28000" />
+      <workItem from="1712366109942" duration="7341000" />
     </task>
     <servers />
   </component>
@@ -164,18 +171,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java</url>
-          <line>171</line>
+          <line>169</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java</url>
-          <line>144</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Node.java</url>
           <line>19</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day3/Arraysum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day3/PrintNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day3/PrintNumber.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

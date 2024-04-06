@@ -56,24 +56,21 @@ public class doublelinkedlist<E> implements Abtractlinkedlist<E> {
 
     @Override
     public E removeLast( ) {
+        //throw an exception if list empty
         E temp = tail.element;
-
         if (head == tail){
             head = tail = null;
         } else {
-
             // Option 1
             // tail = tail.previous;
             // tail.next.previous = null;
             // tail.next = null;
-
             // Option 2
             Node<E> lastNode = tail;
             tail = lastNode.previous;
             tail.next = null;
             lastNode.previous = null;
         }
-
         size --;
         return temp;
     }
@@ -135,7 +132,7 @@ public class doublelinkedlist<E> implements Abtractlinkedlist<E> {
 class DoubleLinkedListRunner{
     public static void main( String[] args ) {
         doublelinkedlist<Integer> myDoubleLinkedList = new doublelinkedlist<>();
-
+        myDoubleLinkedList.removeLast( ); //error if uncomment
         myDoubleLinkedList.addFirst( 10 );
         myDoubleLinkedList.addFirst( 20 );
         myDoubleLinkedList.addFirst( 30 );

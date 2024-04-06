@@ -61,8 +61,6 @@ public class SingleLinkedList<E> implements AbtractLinkedList<E> {
     @Override
     public E removeLast() {
         E templast = tail.element; //tro elemen vao
-
-
         if(head==tail)
         {
             head=null;
