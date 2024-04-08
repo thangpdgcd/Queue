@@ -1,38 +1,25 @@
 package day3;
 
 public class PrintNumber {
-    public  static  void main(String[] args)
-    {
-//        printChainOfNums(5);
-        printChainOfNums2(5);
-
+    public static void main( String[] args ) {
+        // printChainOfNums(5); // 5 4 3 2 1
+        printChainOfNumsReversed(5); // 1 2 3 4 5
     }
-//    public static void printChainOfNums(int n)
-//    {
-//        if(n==0)
-//        {
-//            return;
-//        }
-//        System.out.println(n);
-//        printChainOfNums(n-1);
-//    }
-    public  static  void printChainOfNums2(int n)
-    {
-        if(n==0)
-        {
+    public static void printChainOfNumsReversed(int n){
+        // base condition or base case
+        if(n == 0){
             return;
         }
-        System.out.println(n);
-        printChainOfNums2(n-1);
+        printChainOfNumsReversed(n - 1);  // recursive call
+        System.out.println( n ); // <<<<<<<
     }
-    public  static  void printChainOfNums3()
-    {
-        System.out.println(1);
-        printChainOfNums3();
-    }
-    public  static  void printChainOfNums4()
-    {
-        System.out.println(2);
-        printChainOfNums3();
+
+    public static void printChainOfNums(int n){
+        // base condition or base case
+        if(n == 0){
+            return;
+        }
+        System.out.println( n ); // <<<<<<<
+        printChainOfNums(  n - 1 ); // recursive call
     }
 }

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5908c74-404c-42d7-a6e8-96577ee90908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day3/Arraysum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/PrintNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/printstar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/PrintFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbtractLinkedlist/doublelinkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3_SingleLinkedList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/PrintNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/printstar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/printstar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,33 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbtractLinkedlist.runner.executor": "Debug",
-    "Application.Arraysum.executor": "Debug",
-    "Application.DoubleLinkedListRunner.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PrintNumber.executor": "Run",
-    "Application.Runnerjava.executor": "Run",
-    "Application.Runnerlinkedlist (1).executor": "Debug",
-    "Application.Runnerlinkedlist.executor": "Debug",
-    "Application.printstar.executor": "Run",
-    "Application.runner.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Queue",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/dinht/IdeaProjects/queue/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbtractLinkedlist.runner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Arraysum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DoubleLinkedListRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runnerjava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runnerlinkedlist (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Runnerlinkedlist.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.printstar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.runner.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Queue&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dinht/IdeaProjects/queue/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.printstar">
     <configuration name="Arraysum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day3.Arraysum" />
@@ -154,7 +153,8 @@
       <workItem from="1712053856261" duration="714000" />
       <workItem from="1712364060295" duration="53000" />
       <workItem from="1712364189868" duration="28000" />
-      <workItem from="1712366109942" duration="7341000" />
+      <workItem from="1712366109942" duration="9431000" />
+      <workItem from="1712556977896" duration="1273000" />
     </task>
     <servers />
   </component>
@@ -188,16 +188,6 @@
           <url>file://$PROJECT_DIR$/src/day3/Arraysum.java</url>
           <line>12</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day3/PrintNumber.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day3/PrintNumber.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
